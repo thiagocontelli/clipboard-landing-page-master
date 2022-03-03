@@ -16,3 +16,85 @@
     --dark-grayish-blue: rgb(76, 84, 93);
     --grayish-blue: rgb(159, 171, 178);
 }
+
+body {
+    background-image: url(images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+}
+
+.logo-img {
+    max-width: 5em;
+    margin-top: 8em;
+}
+
+.header-txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5em;
+    text-align: center;
+    
+    max-width: 34em;
+}
+
+.header-txt > h1 {
+    color: var(--dark-grayish-blue);
+}
+
+.header-txt > p {
+    color: var(--grayish-blue);
+}
+
+.header-btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1em;
+}
+
+.btn-ios {
+    font-family: 'Bai Jamjuree', sans-serif;
+    color: white;
+
+    background-color: var(--strong-cyan);
+
+    box-shadow: 2px 5px 5px rgba(38, 186, 164, 0.418);
+
+    padding: .8em;
+    border-radius: 3em;
+    min-width: 12em;
+}
+
+.btn-ios:hover {
+    cursor: pointer;
+}
+
+.btn-mac {
+    font-family: 'Bai Jamjuree', sans-serif;
+    color: white;
+
+    background-color: var(--light-blue);
+
+    box-shadow: 2px 5px 5px rgb(97, 115, 255, 0.418);
+
+    padding: .8em;
+    border-radius: 3em;
+    min-width: 12em;
+}
+
+.btn-mac:hover {
+    cursor: pointer;
+}
+
+
