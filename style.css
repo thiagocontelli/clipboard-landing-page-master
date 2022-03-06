@@ -38,7 +38,7 @@ header {
     margin-top: 8em;
 }
 
-.header-txt {
+.main-txt {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -48,11 +48,11 @@ header {
     max-width: 34em;
 }
 
-.header-txt > h1 {
+.main-txt > h1, h2, h3 {
     color: var(--dark-grayish-blue);
 }
 
-.header-txt > p {
+.main-txt > p {
     color: var(--grayish-blue);
 }
 
@@ -93,8 +93,41 @@ header {
     min-width: 12em;
 }
 
-.btn-mac:hover {
-    cursor: pointer;
+.article-first {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5em;
+    
+    margin-top: 5em;
 }
+
+.box {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.aside-txt {
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+
+    max-width: 21em;
+}
+
+.img-article {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.computer {
+    max-width: 8em;
+}
+
+/*ESTUDAR GRIDDDDDDDDDDDD*/
+
+
+
 
 
