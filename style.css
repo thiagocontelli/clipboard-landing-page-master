@@ -95,14 +95,14 @@ header {
 /* CONTAINER 1 */
 
 
-.article-first {
+.section-first {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.artcile-first-main-txt {
+.section-first-main-txt {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -113,7 +113,16 @@ header {
     margin: 8em 0em 3em 0em;
 }
 
-.box {
+.section-first-main-txt-h2 {
+    color: var(--dark-grayish-blue);
+}
+
+.section-first-main-txt-p {
+    color: var(--grayish-blue);
+    line-height: 1.6em;
+}
+
+.section-first-box {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -121,18 +130,9 @@ header {
 .aside-txt {
     display: flex;
     flex-direction: column;
-    gap: 4em;
+    gap: 3em;
     max-width: 21em;
-    margin: 4em 0em 10em 5em;
-}
-
-.article-first-main-txt-h2 {
-    color: var(--dark-grayish-blue);
-}
-
-.article-first-main-txt-p {
-    color: var(--grayish-blue);
-    line-height: 1.6em;
+    margin: 3em 0em 10em 5em;
 }
 
 .aside-txt-h3 {
