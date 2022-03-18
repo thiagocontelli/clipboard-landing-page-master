@@ -21,10 +21,10 @@ body {
     background-image: url(images/bg-header-desktop.png);
     background-repeat: no-repeat;
     background-position: top;
-    background-attachment: fixed;
-
     font-family: 'Bai Jamjuree', sans-serif;
 }
+
+/* HEADER */
 
 header {
     display: flex;
@@ -38,7 +38,7 @@ header {
     margin-top: 8em;
 }
 
-.main-txt {
+.header-main-txt {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -48,12 +48,13 @@ header {
     max-width: 34em;
 }
 
-.main-txt > h1, h2, h3 {
+.header-main-txt-h1 {
     color: var(--dark-grayish-blue);
 }
 
-.main-txt > p {
+.header-main-txt-p {
     color: var(--grayish-blue);
+    line-height: 1.6em;
 }
 
 .header-btn {
@@ -76,10 +77,6 @@ header {
     min-width: 12em;
 }
 
-.btn-ios:hover {
-    cursor: pointer;
-}
-
 .btn-mac {
     font-family: 'Bai Jamjuree', sans-serif;
     color: white;
@@ -93,40 +90,70 @@ header {
     min-width: 12em;
 }
 
+/* ------------------------------------------------------------- */
+
+/* CONTAINER 1 */
+
+
 .article-first {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    gap: 5em;
+}
+
+.artcile-first-main-txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5em;
+    text-align: center;
     
-    margin-top: 5em;
+    max-width: 36em;
+    margin: 8em 0em 3em 0em;
 }
 
 .box {
-    display: flex;
-    flex-direction: row;
-
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .aside-txt {
     display: flex;
     flex-direction: column;
-    gap: 3em;
-
+    gap: 4em;
     max-width: 21em;
+    margin: 4em 0em 10em 5em;
 }
 
-.img-article {
-    display: flex;
-    justify-content: flex-start;
+.article-first-main-txt-h2 {
+    color: var(--dark-grayish-blue);
+}
+
+.article-first-main-txt-p {
+    color: var(--grayish-blue);
+    line-height: 1.6em;
+}
+
+.aside-txt-h3 {
+    color: var(--dark-grayish-blue);
+}
+
+.aside-txt-p {
+    color: var(--grayish-blue);
+    line-height: 1.6em;
+    margin-top: .5em;
 }
 
 .computer {
-    max-width: 8em;
+    max-width: 50vw;
+    position: absolute;
+    left: -2em;
 }
 
-/*ESTUDAR GRIDDDDDDDDDDDD*/
 
+
+/* ------------------------------------------------------------- */
 
 
 
