@@ -356,5 +356,46 @@ header {
 
 /* FOOTER */
 
+.footer-container {
+    background-color: #f5f5f5;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    height: 7em;
+    margin-top: 8em;
+}
+
+.logo {
+    max-width: 2.5em;
+}
+
+.more {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 3em;
+    row-gap: 1em;
+
+    font-size: .9em;
+}
+
+a, a:visited {
+    text-decoration: none;
+    color: var(--dark-grayish-blue);
+}
+
+.social-media {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1em;
+}
+
+.fb, .tt, .ig {
+    max-width: 1em;
+}
 
 /* ------------------------------------------------------------- */
