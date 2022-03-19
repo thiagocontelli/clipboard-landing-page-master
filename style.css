@@ -41,10 +41,9 @@ header {
 .header-main-txt {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: .5em;
     text-align: center;
-    
+    gap: .5em;
+
     max-width: 34em;
 }
 
@@ -94,7 +93,6 @@ header {
 
 /* CONTAINER 1 */
 
-
 .section-first {
     display: flex;
     flex-direction: column;
@@ -105,10 +103,9 @@ header {
 .section-first-main-txt {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: .5em;
     text-align: center;
-    
+    gap: .5em;
+
     max-width: 36em;
     margin: 8em 0em 3em 0em;
 }
@@ -151,10 +148,44 @@ header {
     left: -2em;
 }
 
+/* ------------------------------------------------------------- */
 
+/* CONTAINER 2 */
+
+.section-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5em;
+}
+
+.section-two-main-txt {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: .5em;
+
+    max-width: 36em;
+}
+
+.section-two-main-txt-h2 {
+    color: var(--dark-grayish-blue);
+}
+
+.section-two-main-txt-p {
+    color: var(--grayish-blue);
+    line-height: 1.6em;
+}
+
+.devices {
+    margin-top: 5em;
+    max-width: 47em;
+}
 
 /* ------------------------------------------------------------- */
 
+/* CONTAINER 3 */
 
 
-
+/* ------------------------------------------------------------- */
